@@ -27,6 +27,13 @@ executable wordle
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    base ^>=4.14.3.0
+    build-depends:
+        base ^>=4.14.3.0,
+        unordered-containers ^>=0.2.16.0,
+        rainbow ^>=0.34.2.2,
+        bytestring,
+        text,
+        hashable,
+        time
     hs-source-dirs:   app
     default-language: Haskell2010
